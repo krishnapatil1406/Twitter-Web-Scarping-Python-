@@ -3,10 +3,10 @@ import requests                # pip install requests
 import sys
 
 
-# username = input("Enter Twitter User Name :- ")    #You can uncomment this line and take the user input for username
+username = sachin_rt                                 #This is sachin tendulkar's twitter username.
 
+# username = input("Enter Twitter User Name :- ")    #You can uncomment this line and take the user input for username.
 
-username = sachin_rt
 url = "http://www.twitter.com/" + username
 
 response = None
